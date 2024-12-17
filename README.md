@@ -19,102 +19,14 @@ Ensure your laptop and smartphone are connected to the same Wi-Fi network.
 
 Download the Copy Cat app (link to be provided soon).
 
-
-**Step 1: Download and Set Up the Server**
-
-**Copy the script below:**
-
-@echo off
-
-setlocal
-
-REM Set the file name and URL
-
-set "file=auto_typing_server"
-
-set "url=https://github.com/sumit91221/auto-typing-server/raw/main/auto_typing_server.exe"
-
-REM Check if the file already exists
-
-if not exist "%file%" (
-
-    echo File '%file%' not found. Downloading...
-    
-    REM Download the server executable using PowerShell
-    
-    powershell -Command "Invoke-WebRequest -Uri '%url%' -OutFile '%file%'"
-    
-    if %errorlevel% neq 0 (
-    
-        echo Failed to download the server executable. Please check your internet connection and try again.
-        
-        pause
-        
-        exit /b 1
-        
-    )
-    
-) else (
-
-    echo File '%file%' already exists. Skipping download.
-    
-)
+Download the server file https://github.com/sumit91221/auto-typing-server/raw/main/auto_typing_server.exe.
 
 
-REM Unblock the downloaded executable
+**Step 1: Download and run the Server**
 
-echo Unblocking the server executable...
+Download the server from provided link and run it as administrator.
 
-powershell -Command "Unblock-File -Path .\%file%"
-
-if %errorlevel% neq 0 (
-
-    echo Failed to unblock the server executable. Please ensure you have the necessary permissions.
-    
-    pause
-    
-    exit /b 1
-    
-)
-
-
-REM Run the server executable and wait for it to complete
-
-echo Running the server executable...
-
-"%file%"
-
-if %errorlevel% neq 0 (
-
-    echo Failed to run the server executable. Please ensure all dependencies are installed and try again.
-    
-    pause
-    
-    exit /b 1
-    
-)
-
-
-echo Press any key to exit...
-
-pause
-
-endlocal
-
-Paste the script into Notepad.
-
-
-**Save the file as server.bat (ensure the file extension is .bat and not .txt).**
-
-**Step 2: Run the Server**
-
-Double-click on the server.bat file.
-
-This will automatically download, unblock, and set up the server on your laptop.
-
-Once the setup is complete, the server will run and wait for connections.
-
-**Step 3: Connect the App to the Server**
+**Step 2: Connect the App to the Server**
 
 Open the Copy Cat app on your smartphone.
 
