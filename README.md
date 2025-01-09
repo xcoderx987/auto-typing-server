@@ -1,6 +1,6 @@
 # Auto-Typing Server:
 
-The Auto-Typing Server is a utility that allows seamless integration between your smartphone and laptop for automated typing. Using the Copy Cat app (link to be updated soon), you can send text from your smartphone to your laptop, where it will be automatically typed into any text editor.
+The Auto-Typing Server is a utility that allows seamless integration between your smartphone and laptop for automated typing. Using the Copy Cat app (https://github.com/xcoderx987/auto-typing-server/raw/main/Copy_Cat.apk), you can send text from your smartphone to your laptop, where it will be automatically typed into any text editor.
 
 
 ## Features:
@@ -17,7 +17,7 @@ Simple and automated server setup.
 
 - Ensure your laptop and smartphone are connected to the same Wi-Fi network.
 
-- Download the Copy Cat app (link to be provided soon).
+- Download the Copy Cat app (https://github.com/xcoderx987/auto-typing-server/raw/main/Copy_Cat.apk).
 
 - Download the server file https://github.com/xcoderx987/auto-typing-server/raw/main/auto_typing_server.exe.
 
