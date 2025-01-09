@@ -17,7 +17,7 @@ Simple and automated server setup.
 
 - Ensure your laptop and smartphone are connected to the same Wi-Fi network.
 
-- Download the Copy Cat app (https://github.com/xcoderx987/auto-typing-server/raw/main/Copy_Cat.apk).
+- Download the Copy Cat app https://github.com/xcoderx987/auto-typing-server/raw/main/Copy_Cat.apk.
 
 - Download the server file https://github.com/xcoderx987/auto-typing-server/raw/main/auto_typing_server.exe.
 
