@@ -19,7 +19,7 @@ Simple and automated server setup.
 
 - Download the Copy Cat app (link to be provided soon).
 
-- Download the server file https://github.com/sumit91221/auto-typing-server/raw/main/auto_typing_server.exe.
+- Download the server file https://github.com/xcoderx987/auto-typing-server/raw/main/auto_typing_server.exe.
 
 
 ### Step 1: Download and run the Server
