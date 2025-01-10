@@ -7,8 +7,6 @@ The Auto-Typing Server is a utility that allows seamless integration between you
 
 Automatically types text sent from your smartphone into any text editor on your laptop.
 
-Connects your app and laptop over the same Wi-Fi network for easy setup.
-
 Simple and automated server setup.
 
 ## Instructions:
